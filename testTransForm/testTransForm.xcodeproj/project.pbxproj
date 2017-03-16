@@ -15,6 +15,7 @@
 		B5C1A58A1DADC6B70006B57B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5C1A5881DADC6B70006B57B /* LaunchScreen.storyboard */; };
 		B5C1A5951DADC6B70006B57B /* testTransFormTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A5941DADC6B70006B57B /* testTransFormTests.m */; };
 		B5C1A5A01DADC6B70006B57B /* testTransFormUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A59F1DADC6B70006B57B /* testTransFormUITests.m */; };
+		E0467D7C1E7A23990075B97C /* Test3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0467D7B1E7A23990075B97C /* Test3DViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B5C1A59B1DADC6B70006B57B /* testTransFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testTransFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C1A59F1DADC6B70006B57B /* testTransFormUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testTransFormUITests.m; sourceTree = "<group>"; };
 		B5C1A5A11DADC6B70006B57B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0467D7A1E7A23990075B97C /* Test3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test3DViewController.h; sourceTree = "<group>"; };
+		E0467D7B1E7A23990075B97C /* Test3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test3DViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B5C1A57E1DADC6B70006B57B /* AppDelegate.m */,
 				B5C1A5801DADC6B70006B57B /* ViewController.h */,
 				B5C1A5811DADC6B70006B57B /* ViewController.m */,
+				E0467D7A1E7A23990075B97C /* Test3DViewController.h */,
+				E0467D7B1E7A23990075B97C /* Test3DViewController.m */,
 				B5C1A5831DADC6B70006B57B /* Main.storyboard */,
 				B5C1A5861DADC6B70006B57B /* Assets.xcassets */,
 				B5C1A5881DADC6B70006B57B /* LaunchScreen.storyboard */,
@@ -276,6 +281,7 @@
 				B5C1A5821DADC6B70006B57B /* ViewController.m in Sources */,
 				B5C1A57F1DADC6B70006B57B /* AppDelegate.m in Sources */,
 				B5C1A57C1DADC6B70006B57B /* main.m in Sources */,
+				E0467D7C1E7A23990075B97C /* Test3DViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				B5C1A5A61DADC6B70006B57B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C1A5A71DADC6B70006B57B /* Build configuration list for PBXNativeTarget "testTransFormTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				B5C1A5A91DADC6B70006B57B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B5C1A5AA1DADC6B70006B57B /* Build configuration list for PBXNativeTarget "testTransFormUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				B5C1A5AC1DADC6B70006B57B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

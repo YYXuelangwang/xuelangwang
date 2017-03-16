@@ -63,7 +63,7 @@
     [UIView animateWithDuration:1.0 animations:^{
         self.transformView.transform = CGAffineTransformMake(a, b, c, d, tx, ty);
     }];
-
+//CATransform3DTranslate(<#CATransform3D t#>, <#CGFloat tx#>, <#CGFloat ty#>, <#CGFloat tz#>)
     self.rectLabel.text = NSStringFromCGRect(self.transformView.frame);
     NSLog(@"cgrect:%@", NSStringFromCGRect(self.transformView.frame));
 }
@@ -78,7 +78,9 @@
 
 }
 
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.view resignFirstResponder];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
