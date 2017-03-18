@@ -25,5 +25,5 @@ CGFloat m41（x平移）, m42（y平移）, m43（z平移）, m44（）;
 ```
 [more info about transform3d](http://blog.csdn.net/gyjjone/article/details/50317439)
 
-[image](https://github.com/YYXuelangwang/xuelangwang/blob/master/transform.gif)
+![image](https://github.com/YYXuelangwang/xuelangwang/blob/master/transform.gif)
 
