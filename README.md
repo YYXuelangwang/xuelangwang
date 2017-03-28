@@ -25,5 +25,16 @@ CGFloat m41（x平移）, m42（y平移）, m43（z平移）, m44（）;
 ```
 [more info about transform3d](http://blog.csdn.net/gyjjone/article/details/50317439)
 
+```
+[x y z 1][m11 m12 m13 m14
+          m21 m22 m23 m24
+          m31 m32 m33 m34
+          m41 m42 m43 m44]-->[x' y' z' 1]
+
+x'=(x*m11+y*m21+z*m31+m41)/(x*m14+y*m24+z*m34+m44)
+y'=(x*m12+y*m22+z*m32+m42)/(x*m14+y*m24+z*m34+m44)
+z'=(x*m13+y*m23+z*m33+m43)/(x*m14+y*m24+z*m34+m44)
+```
+
 ![image](https://github.com/YYXuelangwang/xuelangwang/blob/master/transform.gif)
 
