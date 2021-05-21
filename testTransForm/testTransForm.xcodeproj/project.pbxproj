@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A853F0F2658022C008B4D5C /* TestEmitterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A853F0D2658022C008B4D5C /* TestEmitterView.m */; };
+		5A853F102658022C008B4D5C /* TestEmitterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A853F0E2658022C008B4D5C /* TestEmitterView.xib */; };
 		B5C1A57C1DADC6B70006B57B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A57B1DADC6B70006B57B /* main.m */; };
 		B5C1A57F1DADC6B70006B57B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A57E1DADC6B70006B57B /* AppDelegate.m */; };
 		B5C1A5821DADC6B70006B57B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C1A5811DADC6B70006B57B /* ViewController.m */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A853F0C2658022C008B4D5C /* TestEmitterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestEmitterView.h; sourceTree = "<group>"; };
+		5A853F0D2658022C008B4D5C /* TestEmitterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestEmitterView.m; sourceTree = "<group>"; };
+		5A853F0E2658022C008B4D5C /* TestEmitterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestEmitterView.xib; sourceTree = "<group>"; };
 		B5C1A5771DADC6B40006B57B /* testTransForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTransForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C1A57B1DADC6B70006B57B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B5C1A57D1DADC6B70006B57B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +115,9 @@
 				B5C1A5811DADC6B70006B57B /* ViewController.m */,
 				E0467D7A1E7A23990075B97C /* Test3DViewController.h */,
 				E0467D7B1E7A23990075B97C /* Test3DViewController.m */,
+				5A853F0C2658022C008B4D5C /* TestEmitterView.h */,
+				5A853F0D2658022C008B4D5C /* TestEmitterView.m */,
+				5A853F0E2658022C008B4D5C /* TestEmitterView.xib */,
 				B5C1A5831DADC6B70006B57B /* Main.storyboard */,
 				B5C1A5861DADC6B70006B57B /* Assets.xcassets */,
 				B5C1A5881DADC6B70006B57B /* LaunchScreen.storyboard */,
@@ -231,6 +239,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -253,6 +262,7 @@
 			files = (
 				B5C1A58A1DADC6B70006B57B /* LaunchScreen.storyboard in Resources */,
 				B5C1A5871DADC6B70006B57B /* Assets.xcassets in Resources */,
+				5A853F102658022C008B4D5C /* TestEmitterView.xib in Resources */,
 				B5C1A5851DADC6B70006B57B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -279,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C1A5821DADC6B70006B57B /* ViewController.m in Sources */,
+				5A853F0F2658022C008B4D5C /* TestEmitterView.m in Sources */,
 				B5C1A57F1DADC6B70006B57B /* AppDelegate.m in Sources */,
 				B5C1A57C1DADC6B70006B57B /* main.m in Sources */,
 				E0467D7C1E7A23990075B97C /* Test3DViewController.m in Sources */,

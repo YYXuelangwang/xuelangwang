@@ -7,6 +7,7 @@
 //
 
 #import "Test3DViewController.h"
+#import "TestEmitterView.h"
 
 @interface Test3DViewController ()
 
@@ -99,6 +100,27 @@
         [self.view bringSubviewToFront:self.transformView];
     }
     
+}
+
+- (IBAction)clickedTestEmitter:(id)sender {
+    [self.view addSubview:[TestEmitterView create]];
+    /*
+     EmitterCell:
+         emissionLongitude:
+            发射的弧度数，0代表着朝上发射，3.14代表着朝下发射；
+         emissionRange:
+            发射的可变区间，如果你设置emissionLongitude为0，
+            emissionRange设置为0.76，那么发射的最终角度在-0.76~0.76之间；
+         velocity:
+            发射的速度，如果你设置了velocityRange，比如velocity为50，velocityRange为10，那么发射速度最终在40~60之间
+         spin:
+            旋转的速度，可以参考velocity
+     
+     EmitterLayer:
+        emitterSize:
+            发射的区域大小；默认为（0，0），设置后和emitterShape一起使用；
+     
+     */
 }
 
 - (void)didReceiveMemoryWarning {

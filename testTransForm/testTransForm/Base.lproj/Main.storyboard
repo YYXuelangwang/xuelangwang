@@ -1,11 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sXm-Fr-RPI">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sXm-Fr-RPI">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,30 +20,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4U5-Fs-0l5">
-                                <rect key="frame" x="100" y="120" width="175" height="100"/>
+                                <rect key="frame" x="100" y="100" width="175" height="100"/>
                                 <color key="backgroundColor" red="0.34083077309999998" green="0.66543275120000001" blue="0.37488442659999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="irF-4r-CuD"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bUG-bx-hdx">
-                                <rect key="frame" x="100" y="120" width="175" height="100"/>
+                                <rect key="frame" x="100" y="100" width="175" height="100"/>
                                 <color key="backgroundColor" red="0.66543275120000001" green="0.19744582469999999" blue="0.65478253360000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="aUQ-Yp-78g"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BDm-yS-fnL">
-                                <rect key="frame" x="78" y="268.5" width="30" height="21"/>
+                                <rect key="frame" x="78" y="246" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="mXD-ZX-q0p"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="a" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o4h-i0-M9e">
-                                <rect key="frame" x="50" y="270" width="20" height="18"/>
+                                <rect key="frame" x="50" y="250" width="20" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="Qdh-M0-b9J"/>
                                 </constraints>
@@ -54,16 +51,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="X6f-3W-s88">
-                                <rect key="frame" x="156" y="268.5" width="30" height="21"/>
+                                <rect key="frame" x="156" y="246" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="ftC-5g-yOk"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="b" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4v-6v-mgz">
-                                <rect key="frame" x="128" y="270" width="20" height="18"/>
+                                <rect key="frame" x="128" y="250" width="20" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="KaV-aP-u7j"/>
                                 </constraints>
@@ -72,22 +68,21 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfp-r9-M9N">
-                                <rect key="frame" x="206" y="270" width="9.5" height="18"/>
+                                <rect key="frame" x="206" y="250" width="9.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yY6-e5-sBl">
-                                <rect key="frame" x="78" y="321.5" width="30" height="21"/>
+                                <rect key="frame" x="78" y="299" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="QwP-Xd-o9F"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="c" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gee-G9-o6a">
-                                <rect key="frame" x="50" y="323" width="20" height="18"/>
+                                <rect key="frame" x="50" y="303" width="20" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="GPb-HL-3gc"/>
                                 </constraints>
@@ -96,16 +91,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QTf-nh-YRJ">
-                                <rect key="frame" x="156" y="321.5" width="30" height="21"/>
+                                <rect key="frame" x="156" y="299" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="iT1-aZ-JQu"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="d" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3J3-jd-wkj">
-                                <rect key="frame" x="128" y="323" width="20" height="18"/>
+                                <rect key="frame" x="128" y="303" width="20" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="1ve-PR-iHU"/>
                                 </constraints>
@@ -114,16 +108,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LXy-aO-yze">
-                                <rect key="frame" x="78" y="374.5" width="30" height="21"/>
+                                <rect key="frame" x="78" y="352" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Ava-0Q-O2X"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="26x-6c-nA9">
-                                <rect key="frame" x="50" y="376" width="20" height="18"/>
+                                <rect key="frame" x="50" y="356" width="20" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="gd5-k8-8R9"/>
                                 </constraints>
@@ -132,16 +125,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d35-bM-SuO">
-                                <rect key="frame" x="156" y="374.5" width="30" height="21"/>
+                                <rect key="frame" x="156" y="352" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="YJK-a1-n7u"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEU-m2-42g">
-                                <rect key="frame" x="128" y="376" width="20" height="18"/>
+                                <rect key="frame" x="128" y="356" width="20" height="18"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="20" id="emM-bJ-uCb"/>
                                 </constraints>
@@ -150,31 +142,31 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Z3-3j-RJ2">
-                                <rect key="frame" x="206" y="323" width="9.5" height="18"/>
+                                <rect key="frame" x="206" y="303" width="9.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sOh-JF-SmL">
-                                <rect key="frame" x="206" y="376" width="7" height="18"/>
+                                <rect key="frame" x="206" y="356" width="7" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x' = ax + cy + tx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E4N-D6-ZFA">
-                                <rect key="frame" x="50" y="420.5" width="108.5" height="18"/>
+                                <rect key="frame" x="50" y="403.5" width="108" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="y' = bx + dy + ty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hj5-Su-XkE">
-                                <rect key="frame" x="50" y="463.5" width="110.5" height="18"/>
+                                <rect key="frame" x="50" y="446.5" width="110" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgR-Gp-Rj4">
-                                <rect key="frame" x="50" y="504" width="178" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HgR-Gp-Rj4">
+                                <rect key="frame" x="50" y="484" width="178" height="30"/>
                                 <color key="backgroundColor" red="0.34083077309999998" green="0.66543275120000001" blue="0.37488442659999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="bringBackVIewUpOrDown">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -184,25 +176,25 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CGRect:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBC-4L-pKn">
-                                <rect key="frame" x="50" y="70" width="57" height="18"/>
+                                <rect key="frame" x="50" y="50" width="57" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k3b-w9-Gdj">
-                                <rect key="frame" x="117" y="70" width="37.5" height="18"/>
+                                <rect key="frame" x="117" y="50" width="37.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMN-2R-bfD">
-                                <rect key="frame" x="70" y="31" width="37.5" height="18"/>
+                                <rect key="frame" x="70" y="11" width="37.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7I8-Qp-08M">
-                                <rect key="frame" x="200" y="434" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7I8-Qp-08M">
+                                <rect key="frame" x="200" y="414" width="35" height="30"/>
                                 <color key="backgroundColor" red="0.66543275120000001" green="0.61215114589999997" blue="0.22315046190000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="done">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -296,30 +288,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uto-Oj-Q5i">
-                                <rect key="frame" x="100" y="120" width="175" height="100"/>
+                                <rect key="frame" x="100" y="100" width="175" height="100"/>
                                 <color key="backgroundColor" red="0.34083077309999998" green="0.66543275120000001" blue="0.37488442659999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="ocw-d2-fPr"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hdJ-eo-J4E">
-                                <rect key="frame" x="100" y="120" width="175" height="100"/>
+                                <rect key="frame" x="100" y="100" width="175" height="100"/>
                                 <color key="backgroundColor" red="0.66543275120000001" green="0.19744582469999999" blue="0.65478253360000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="59n-s9-oQZ"/>
                                 </constraints>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u0e-au-IFc">
-                                <rect key="frame" x="58" y="268" width="30" height="21"/>
+                                <rect key="frame" x="58" y="245" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="DeL-fT-SHG"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m11" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JqO-sy-4Jf">
-                                <rect key="frame" x="20" y="270" width="30" height="16"/>
+                                <rect key="frame" x="20" y="250" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="oF2-Wj-oKj"/>
                                 </constraints>
@@ -328,16 +319,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p3G-2A-5g6">
-                                <rect key="frame" x="136" y="268" width="30" height="21"/>
+                                <rect key="frame" x="136" y="245" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="hsA-Z2-PA6"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVv-mA-D67">
-                                <rect key="frame" x="98" y="270" width="30" height="16"/>
+                                <rect key="frame" x="98" y="250" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="TMK-mO-0gn"/>
                                 </constraints>
@@ -346,19 +336,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x' = ax + cy + tx" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeR-Q9-ALS">
-                                <rect key="frame" x="50" y="414" width="109" height="18"/>
+                                <rect key="frame" x="50" y="396.5" width="108" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="y' = bx + dy + ty" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yg8-U6-Qql">
-                                <rect key="frame" x="50" y="457" width="111" height="18"/>
+                                <rect key="frame" x="50" y="439.5" width="110" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYy-Sh-iJI">
-                                <rect key="frame" x="50" y="497" width="178" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYy-Sh-iJI">
+                                <rect key="frame" x="50" y="478.5" width="178" height="30"/>
                                 <color key="backgroundColor" red="0.34083077309999998" green="0.66543275120000001" blue="0.37488442659999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="bringBackVIewUpOrDown">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -368,25 +358,25 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CGRect:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhx-iP-jyv">
-                                <rect key="frame" x="50" y="70" width="57" height="18"/>
+                                <rect key="frame" x="50" y="50" width="57" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hYG-me-x9h">
-                                <rect key="frame" x="117" y="70" width="38" height="18"/>
+                                <rect key="frame" x="117" y="50" width="37.5" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anG-4d-WT0">
-                                <rect key="frame" x="70" y="31" width="38" height="18"/>
+                                <rect key="frame" x="70" y="11" width="38" height="18"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W35-zl-zSg">
-                                <rect key="frame" x="200" y="427" width="35" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W35-zl-zSg">
+                                <rect key="frame" x="200" y="408.5" width="35" height="30"/>
                                 <color key="backgroundColor" red="0.66543275120000001" green="0.61215114589999997" blue="0.22315046190000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="done">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -396,16 +386,15 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e4k-Rj-pjn">
-                                <rect key="frame" x="214" y="269" width="30" height="21"/>
+                                <rect key="frame" x="214" y="245" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="j2d-Eg-RNg"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m13" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ckX-cf-s6X">
-                                <rect key="frame" x="176" y="271" width="30" height="16"/>
+                                <rect key="frame" x="176" y="250" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="qqS-Wx-UfN"/>
                                 </constraints>
@@ -414,16 +403,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pon-Gf-A3s">
-                                <rect key="frame" x="292" y="269" width="30" height="21"/>
+                                <rect key="frame" x="292" y="245" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="aK5-MG-rbF"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m14" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tWi-zQ-pPV">
-                                <rect key="frame" x="254" y="271.5" width="30" height="16"/>
+                                <rect key="frame" x="254" y="250" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="LIZ-MI-dBt"/>
                                 </constraints>
@@ -432,16 +420,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bjq-eL-6ty">
-                                <rect key="frame" x="58" y="304" width="30" height="21"/>
+                                <rect key="frame" x="58" y="281" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="aTp-td-nOr"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJx-VY-0zU">
-                                <rect key="frame" x="20" y="306" width="30" height="16"/>
+                                <rect key="frame" x="20" y="286" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="1o9-ET-Hq4"/>
                                 </constraints>
@@ -450,16 +437,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="REp-4T-Db4">
-                                <rect key="frame" x="136" y="304" width="30" height="21"/>
+                                <rect key="frame" x="136" y="281" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="0ao-v5-W7y"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m22" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z1j-Sc-srl">
-                                <rect key="frame" x="98" y="306" width="30" height="16"/>
+                                <rect key="frame" x="98" y="286" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="wCi-sG-N2W"/>
                                 </constraints>
@@ -468,16 +454,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="21R-vd-Hqe">
-                                <rect key="frame" x="214" y="305" width="30" height="21"/>
+                                <rect key="frame" x="214" y="281" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="fdG-jA-fFK"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m23" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpO-NK-TVL">
-                                <rect key="frame" x="176" y="307" width="30" height="16"/>
+                                <rect key="frame" x="176" y="286" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="G2B-DU-NrJ"/>
                                 </constraints>
@@ -486,16 +471,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4pT-Ra-Xha">
-                                <rect key="frame" x="292" y="305" width="30" height="21"/>
+                                <rect key="frame" x="292" y="281" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="M0o-Jz-N7B"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m24" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1k-tU-zDG">
-                                <rect key="frame" x="254" y="307" width="30" height="16"/>
+                                <rect key="frame" x="254" y="286" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Cel-3O-uKT"/>
                                 </constraints>
@@ -504,16 +488,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="unZ-9l-Id6">
-                                <rect key="frame" x="58" y="340" width="30" height="21"/>
+                                <rect key="frame" x="58" y="317" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="8Xm-3F-vpW"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m31" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sjO-HW-zVa">
-                                <rect key="frame" x="20" y="342" width="30" height="16"/>
+                                <rect key="frame" x="20" y="322" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="hbj-Id-QhW"/>
                                 </constraints>
@@ -522,16 +505,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uXL-NU-7cu">
-                                <rect key="frame" x="136" y="340" width="30" height="21"/>
+                                <rect key="frame" x="136" y="317" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="jRx-JZ-lcG"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m32" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8YW-To-waE">
-                                <rect key="frame" x="98" y="342" width="30" height="16"/>
+                                <rect key="frame" x="98" y="322" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="NTD-Hw-i0J"/>
                                 </constraints>
@@ -540,16 +522,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Maf-YZ-kz9">
-                                <rect key="frame" x="214" y="341" width="30" height="21"/>
+                                <rect key="frame" x="214" y="317" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Xf9-L9-ubi"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m33" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uxS-jE-4Cv">
-                                <rect key="frame" x="176" y="343" width="30" height="16"/>
+                                <rect key="frame" x="176" y="322" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="q9M-TO-0rf"/>
                                 </constraints>
@@ -558,16 +539,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AGR-hD-58x">
-                                <rect key="frame" x="292" y="341" width="30" height="21"/>
+                                <rect key="frame" x="292" y="317" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Aeh-B5-Q7r"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m34" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C28-ay-Je1">
-                                <rect key="frame" x="254" y="343" width="30" height="16"/>
+                                <rect key="frame" x="254" y="322" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="fVO-cX-x2L"/>
                                 </constraints>
@@ -576,16 +556,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BQa-z6-Hi7">
-                                <rect key="frame" x="58" y="376" width="30" height="21"/>
+                                <rect key="frame" x="58" y="353" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Qsg-fb-ijX"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m41" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HoP-Nt-ts1">
-                                <rect key="frame" x="20" y="378" width="30" height="16"/>
+                                <rect key="frame" x="20" y="358" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="vKr-m5-SgG"/>
                                 </constraints>
@@ -594,16 +573,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="reP-oP-Vjx">
-                                <rect key="frame" x="136" y="376" width="30" height="21"/>
+                                <rect key="frame" x="136" y="353" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="Fl1-DJ-xO7"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m42" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9f-aa-fBO">
-                                <rect key="frame" x="98" y="378" width="30" height="16"/>
+                                <rect key="frame" x="98" y="358" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="BX0-hl-OjB"/>
                                 </constraints>
@@ -612,16 +590,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="0" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hqd-fs-S7j">
-                                <rect key="frame" x="214" y="377" width="30" height="21"/>
+                                <rect key="frame" x="214" y="353" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="ur2-N2-kiT"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m43" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5b-LH-eya">
-                                <rect key="frame" x="176" y="379" width="30" height="16"/>
+                                <rect key="frame" x="176" y="358" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="iiI-mo-Otg"/>
                                 </constraints>
@@ -630,16 +607,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="1" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ele-xg-Xz7">
-                                <rect key="frame" x="292" y="377" width="30" height="21"/>
+                                <rect key="frame" x="292" y="353" width="30" height="26.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="el0-vf-DQO"/>
                                 </constraints>
-                                <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="m44" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="khy-8r-XqG">
-                                <rect key="frame" x="254" y="379" width="30" height="16"/>
+                                <rect key="frame" x="254" y="358" width="30" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="30" id="eg3-fq-KOn"/>
                                 </constraints>
@@ -647,6 +623,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2Z-Yj-ybm">
+                                <rect key="frame" x="50" y="538" width="79" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.61960784310000006" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="TestEmitter">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickedTestEmitter:" destination="sXm-Fr-RPI" eventType="touchUpInside" id="rbJ-BL-tjQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
