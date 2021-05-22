@@ -60,6 +60,8 @@ emitterShape:       emitter shape, It's like literally; support: point, line, re
 emitterMode:        patterns of emitting particles, support: points, outline, surface, volume
 ```
 
-![image](https://github.com/YYXuelangwang/xuelangwang/blob/master/emitterLayer.gif)
-
+<!-- ![image](https://github.com/YYXuelangwang/xuelangwang/blob/master/emitterLayer.gif) -->
+<left>
+<img src="https://github.com/YYXuelangwang/xuelangwang/blob/master/emitterLayer.gif" width="35%" />
+</left>
 
