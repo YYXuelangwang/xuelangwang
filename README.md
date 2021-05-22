@@ -38,3 +38,27 @@ z'=(x*m13+y*m23+z*m33+m43)/(x*m14+y*m24+z*m34+m44)
 
 ![image](https://github.com/YYXuelangwang/xuelangwang/blob/master/transform.gif)
 
+## test EmitterLayer in custom
+
+EmitterLayer, render a particle system; with the most property, you can get differenct effects; Then, I've listed some properties for debugging purposes;
+
+EmitterCell's properties
+
+```object-c
+emissionLongitude:  emission angle
+emissionRange:      area around the emission angle, also angle
+velocity:           emission velocity
+velocityRange:      area around the emission velocity, float
+spin:               rotation speed
+```
+
+EmitterLayer's properties
+
+```object-c
+emitterSize:        emission area, CGSize
+emitterShape:       emitter shape, It's like literally; support: point, line, rectangle, cuboid, sphere, circle
+emitterMode:        patterns of emitting particles, support: points, outline, surface, volume
+```
+
+
+
